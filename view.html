@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<title>Mapa</title>
+
+	<script src="./js/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./leaflet/leaflet.css">
+	<script src="./leaflet/leaflet.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/view.css">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"/>
+
+    </head>
+    <body>
+        <h1 id="titulo">algo</h1>
+        <div id="mapid">
+            <div class="leaflet-bottom leaflet-left">
+                <input type="button" value="Empezar Carrera" onclick="startRace()" class="btnStyle span3 leaflet-control" /> 
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/MovingMarker.js"></script>
+        <script src="./js/constantes.js"></script>
+        <script src="./js/funciones.js"></script>
+        <script src="./js/loadTracks.js"></script>
+        <script src="./js/loadWebcamsPosition.js"></script> 
+        <script src="./js/loadRunnersPositions.js"></script>
+        <script src="./js/startRace.js"></script>
+    </body>
+</html>
